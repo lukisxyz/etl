@@ -11,13 +11,3 @@ services:
       - '1433:1433'
     volumes:
       - ./init/sqlserver-init.sql:/docker-entrypoint-initdb.d/sqlserver-init.sql
-
-  postgres:
-    image: postgres:latest
-    container_name: postgres
-    environment:
-      - POSTGRES_PASSWORD=YourStrong@Passw0rd
-    ports:
-      - '5434:5432'
-    volumes:
-      - ./init/postgres-init.sql:/docker-entrypoint-initdb.d/postgres-init.sql

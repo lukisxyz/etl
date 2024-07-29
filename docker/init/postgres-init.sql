@@ -1,0 +1,6 @@
+-- Create databases
+CREATE DATABASE Database1;
+CREATE DATABASE Database2;
+CREATE DATABASE Database3;
+CREATE DATABASE Database4;
+CREATE DATABASE Database5;
